@@ -3,18 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F27AA9023CDE0BD005280E7 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F27AA8F23CDE0BD005280E7 /* Map.swift */; };
+		7F2BD82923E02ED9007D4523 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2BD82823E02ED9007D4523 /* Profile.swift */; };
+		7F31F10F23E1B37C0048DE69 /* AppList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31F10E23E1B37B0048DE69 /* AppList.swift */; };
+		7F31F11123E1B3B50048DE69 /* AppDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31F11023E1B3B50048DE69 /* AppDetail.swift */; };
+		7F31F11323E1B3DA0048DE69 /* AppControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31F11223E1B3DA0048DE69 /* AppControl.swift */; };
+		7F31F11523E1B43D0048DE69 /* AppStadistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F31F11423E1B43D0048DE69 /* AppStadistics.swift */; };
+		7F3931AD23D719FB001578B6 /* PassChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3931AC23D719FB001578B6 /* PassChange.swift */; };
+		7F451D5523CF2D1A006D270B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F451D5423CF2D1A006D270B /* Login.swift */; };
+		7F451D5723CF2D5F006D270B /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F451D5623CF2D5F006D270B /* Registro.swift */; };
+		7F451D5923CF2D7D006D270B /* PassReset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F451D5823CF2D7D006D270B /* PassReset.swift */; };
 		7FD3145623C87A16008F81A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3145523C87A16008F81A3 /* AppDelegate.swift */; };
 		7FD3145823C87A16008F81A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD3145723C87A16008F81A3 /* ViewController.swift */; };
 		7FD3145B23C87A16008F81A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3145923C87A16008F81A3 /* Main.storyboard */; };
 		7FD3145D23C87A1C008F81A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3145C23C87A1C008F81A3 /* Assets.xcassets */; };
 		7FD3146023C87A1C008F81A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FD3145E23C87A1C008F81A3 /* LaunchScreen.storyboard */; };
+		D8F256D0791E9EBD3F01308D /* Pods_BienestarDigital.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1733D43D5007BDD82A5384EF /* Pods_BienestarDigital.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1733D43D5007BDD82A5384EF /* Pods_BienestarDigital.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BienestarDigital.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36E513453BDAFC0662FDB8E9 /* Pods-BienestarDigital.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BienestarDigital.debug.xcconfig"; path = "Target Support Files/Pods-BienestarDigital/Pods-BienestarDigital.debug.xcconfig"; sourceTree = "<group>"; };
+		7F27AA8F23CDE0BD005280E7 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		7F2BD82823E02ED9007D4523 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		7F31F10E23E1B37B0048DE69 /* AppList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppList.swift; sourceTree = "<group>"; };
+		7F31F11023E1B3B50048DE69 /* AppDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetail.swift; sourceTree = "<group>"; };
+		7F31F11223E1B3DA0048DE69 /* AppControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppControl.swift; sourceTree = "<group>"; };
+		7F31F11423E1B43D0048DE69 /* AppStadistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStadistics.swift; sourceTree = "<group>"; };
+		7F3931AC23D719FB001578B6 /* PassChange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassChange.swift; sourceTree = "<group>"; };
+		7F451D5423CF2D1A006D270B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		7F451D5623CF2D5F006D270B /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
+		7F451D5823CF2D7D006D270B /* PassReset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassReset.swift; sourceTree = "<group>"; };
 		7FD3145223C87A16008F81A3 /* BienestarDigital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BienestarDigital.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD3145523C87A16008F81A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FD3145723C87A16008F81A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +45,7 @@
 		7FD3145C23C87A1C008F81A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FD3145F23C87A1C008F81A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FD3146123C87A1C008F81A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AECB6585757439B14A778D1 /* Pods-BienestarDigital.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BienestarDigital.release.xcconfig"; path = "Target Support Files/Pods-BienestarDigital/Pods-BienestarDigital.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8F256D0791E9EBD3F01308D /* Pods_BienestarDigital.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69352782F412D425F6B6DA90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1733D43D5007BDD82A5384EF /* Pods_BienestarDigital.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7FD3144923C87A15008F81A3 = {
 			isa = PBXGroup;
 			children = (
 				7FD3145423C87A16008F81A3 /* BienestarDigital */,
 				7FD3145323C87A16008F81A3 /* Products */,
+				BBEC2DBD8ED85D7A35A7623A /* Pods */,
+				69352782F412D425F6B6DA90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +95,27 @@
 				7FD3145C23C87A1C008F81A3 /* Assets.xcassets */,
 				7FD3145E23C87A1C008F81A3 /* LaunchScreen.storyboard */,
 				7FD3146123C87A1C008F81A3 /* Info.plist */,
+				7F451D5623CF2D5F006D270B /* Registro.swift */,
+				7F451D5423CF2D1A006D270B /* Login.swift */,
+				7F451D5823CF2D7D006D270B /* PassReset.swift */,
+				7F3931AC23D719FB001578B6 /* PassChange.swift */,
+				7F31F10E23E1B37B0048DE69 /* AppList.swift */,
+				7F31F11023E1B3B50048DE69 /* AppDetail.swift */,
+				7F31F11223E1B3DA0048DE69 /* AppControl.swift */,
+				7F31F11423E1B43D0048DE69 /* AppStadistics.swift */,
+				7F2BD82823E02ED9007D4523 /* Profile.swift */,
+				7F27AA8F23CDE0BD005280E7 /* Map.swift */,
 			);
 			path = BienestarDigital;
+			sourceTree = "<group>";
+		};
+		BBEC2DBD8ED85D7A35A7623A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36E513453BDAFC0662FDB8E9 /* Pods-BienestarDigital.debug.xcconfig */,
+				8AECB6585757439B14A778D1 /* Pods-BienestarDigital.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +125,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FD3146423C87A1C008F81A3 /* Build configuration list for PBXNativeTarget "BienestarDigital" */;
 			buildPhases = (
+				177C7B355FC88387AA50ABC2 /* [CP] Check Pods Manifest.lock */,
 				7FD3144E23C87A15008F81A3 /* Sources */,
 				7FD3144F23C87A15008F81A3 /* Frameworks */,
 				7FD3145023C87A15008F81A3 /* Resources */,
+				97C3820DF0AC502EA31D8022 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +186,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		177C7B355FC88387AA50ABC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BienestarDigital-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97C3820DF0AC502EA31D8022 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BienestarDigital/Pods-BienestarDigital-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BienestarDigital/Pods-BienestarDigital-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BienestarDigital/Pods-BienestarDigital-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7FD3144E23C87A15008F81A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F31F11123E1B3B50048DE69 /* AppDetail.swift in Sources */,
 				7FD3145823C87A16008F81A3 /* ViewController.swift in Sources */,
+				7F31F11523E1B43D0048DE69 /* AppStadistics.swift in Sources */,
+				7F31F11323E1B3DA0048DE69 /* AppControl.swift in Sources */,
+				7F2BD82923E02ED9007D4523 /* Profile.swift in Sources */,
+				7F451D5723CF2D5F006D270B /* Registro.swift in Sources */,
+				7F451D5923CF2D7D006D270B /* PassReset.swift in Sources */,
+				7F27AA9023CDE0BD005280E7 /* Map.swift in Sources */,
 				7FD3145623C87A16008F81A3 /* AppDelegate.swift in Sources */,
+				7F3931AD23D719FB001578B6 /* PassChange.swift in Sources */,
+				7F31F10F23E1B37C0048DE69 /* AppList.swift in Sources */,
+				7F451D5523CF2D1A006D270B /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +388,7 @@
 		};
 		7FD3146523C87A1C008F81A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E513453BDAFC0662FDB8E9 /* Pods-BienestarDigital.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +406,7 @@
 		};
 		7FD3146623C87A1C008F81A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AECB6585757439B14A778D1 /* Pods-BienestarDigital.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
